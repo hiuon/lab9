@@ -20,7 +20,7 @@ public class UserList extends ListOfIdentifiables<User> {
         }
         return null;
     }
-    
+
     public synchronized User addUser(User user)
             throws UserExistsException {
         if(findUser(user.getLogin()) != null)
