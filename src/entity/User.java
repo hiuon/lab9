@@ -53,7 +53,7 @@ public class User implements Serializable, Identifiable {
     public int hashCode() {
         return id;
     }
-    
+
     public boolean equals(Object obj) {
         if (this == obj)
             return true;
