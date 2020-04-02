@@ -31,7 +31,7 @@ public class AddUser extends SimpleTagSupport {
                 errorMessage = "Пользователь с таким логином уже существует!";
             }
         }
-        
+
         getJspContext().setAttribute("errorMessage", errorMessage,
                 PageContext.SESSION_SCOPE);
     }
