@@ -3,7 +3,7 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%-- Импортировать собственную библиотеку тегов --%>
-<%@taglib prefix="ad" uri="http://bsu.rfe.java.teacher.tag/ad"%>
+<%@taglib prefix="ad" uri="http://tag/ad"%>
 <%-- Указать, что мы ожидаем данные в кодировке UTF-8 --%>
 <fmt:requestEncoding value="UTF-8" />
 <%-- Очистить переменную перед использованием --%>
