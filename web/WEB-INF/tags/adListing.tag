@@ -19,26 +19,17 @@
 value="${pageContext.request.requestURL}">
 <c:param name="sort" value="subject"/>
 <c:param name="dir" value="asc"/>
-</c:url>"><img
-                    src="<c:url value="/resources/asc.png"
-/>" width="20" height="19"
-                    border="0" align="middle"></a> <a
-                    href="<c:url
+</c:url>"><img src="<c:url value="https://image.flaticon.com/icons/png/512/44/44674.png"/>" width="20" height="19" border="0" align="middle" alt="smith"></a> <a href="<c:url
 value="${pageContext.request.requestURL}">
 <c:param name="sort" value="subject"/>
 <c:param name="dir" value="desc"/>
-</c:url>"><img
-                    src="<c:url value="/resources/desc.png"
-/>" width="20" height="19"
-                    border="0" align="middle"></a>
+</c:url>"><img src="<c:url value="https://w7.pngwing.com/pngs/968/419/png-transparent-arrow-computer-icons-down-arrow-hand-window-desktop-wallpaper.png"/>" width="20" height="19" border="0" align="middle"></a>
             </td>
-            <td>Автор<br> <a
-                    href="<c:url
-value="${pageContext.request.requestURL}">
+            <td>Автор<br> <a href="<c:url value="${pageContext.request.requestURL}">
 <c:param name="sort" value="author"/>
 <c:param name="dir" value="asc"/>
 </c:url>"><img
-                    src="<c:url value="/resources/asc.png"
+                    src="<c:url value="https://image.flaticon.com/icons/png/512/44/44674.png"
 />" width="20" height="19"
                     border="0" align="middle"></a> <a
                     href="<c:url
@@ -46,7 +37,7 @@ value="${pageContext.request.requestURL}">
 <c:param name="sort" value="author"/>
 <c:param name="dir" value="desc"/>
 </c:url>"><img
-                    src="<c:url value="/resources/desc.png"
+                    src="<c:url value="https://w7.pngwing.com/pngs/968/419/png-transparent-arrow-computer-icons-down-arrow-hand-window-desktop-wallpaper.png"
 />" width="20" height="19"
                     border="0" align="middle"></a>
             </td>
@@ -56,7 +47,7 @@ value="${pageContext.request.requestURL}">
 <c:param name="sort" value="date"/>
 <c:param name="dir" value="asc"/>
 </c:url>"><img
-                    src="<c:url value="/resources/asc.png"
+                    src="<c:url value="https://image.flaticon.com/icons/png/512/44/44674.png"
 />" width="20" height="19"
                     border="0" align="middle"></a> <a
                     href="<c:url
@@ -64,7 +55,7 @@ value="${pageContext.request.requestURL}">
 <c:param name="sort" value="date"/>
 <c:param name="dir" value="desc"/>
 </c:url>"><img
-                    src="<c:url value="/resources/desc.png"
+                    src="<c:url value="https://w7.pngwing.com/pngs/968/419/png-transparent-arrow-computer-icons-down-arrow-hand-window-desktop-wallpaper.png"
 />" width="20" height="19"
                     border="0" align="middle"></a>
             </td>

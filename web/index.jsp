@@ -2,7 +2,7 @@
 	pageEncoding="UTF-8"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="my" tagdir="/WEB-INF/tags"%>
-<%@taglib prefix="ad" uri="http://bsu.rfe.java.teacher.tag/ad"%>
+<%@taglib prefix="ad" uri="http://tag/ad"%>
 <!DOCTYPE html>
 <html>
 <head>

@@ -10,11 +10,10 @@
 </c:if>
 <%-- Общая декоративная "шапка" для всех страниц --%>
 <div style="background-color: #a0c8ff; padding: 10px;">
-	<img src="/ad/resources/ad.png" width="50" height="53" border="0"
-		align="left">
+	<img src="https://lh3.googleusercontent.com/proxy/jcTwoTOFvoItVR0dNM4Siv8lrFDZLiKk91RAlGUueZzcRgCY1VZRgZX5AN7Tz1m4NR6fjTKkQ2QjEOOQN52sWexb8u4cuU-1sm15h6Gpb_k6z-K40GgZyLJxa23gAoi4IEr3h-8" width="50" height="53" border="0" align="left" alt="image">
 	<div
-		style="font-family: 'Trebuchet'; font-size: 30px; height: 53px; margin-left: 80px;">
-		Доска объявлений "Фиговый листок" v.1.0.0</div>
+		style="font-family: 'Trebuchet',sans-serif; font-size: 30px; height: 53px; margin-left: 80px;">
+		Доска объявлений</div>
 </div>
 <%-- Панель отображается если пользователь аутентифицирован --%>
 <c:if test="${sessionScope.authUser!=null}">

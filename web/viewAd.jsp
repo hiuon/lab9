@@ -5,7 +5,7 @@
 <%-- Импортировать собственную библиотеку теговых файлов --%>
 <%@taglib prefix="my" tagdir="/WEB-INF/tags" %>
 <%-- Импортировать собственную библиотеку тегов --%>
-<%@taglib prefix="ad" uri="http://bsu.rfe.java.teacher.tag/ad" %>
+<%@taglib prefix="ad" uri="http://tag/ad" %>
 <%-- Получить bean требуемого объявления по переданному параметру id --%>
 <ad:getAds id="${param.id}" var="ad" />
 <!DOCTYPE html>

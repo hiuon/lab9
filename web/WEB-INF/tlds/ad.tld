@@ -8,7 +8,7 @@ http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
     <display-name>AD App Tags</display-name>
     <tlib-version>1.0</tlib-version>
     <short-name>ad</short-name>
-    <uri>http://bsu.rfe.java.teacher.tag/ad</uri>
+    <uri>http://tag/ad</uri>
     <tag>
         <description>Выполняет добавление нового пользователя</description>
         <name>addUser</name>

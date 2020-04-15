@@ -32,14 +32,6 @@
 					<td><input type="text" name="email" value="${sessionScope.userData.email}"></td>
 				</tr>
 				<tr>
-					<td><a href="#" onclick="document.getElementById('cap').src='img'">Обновить</a></td>
-					<td><img id="cap" src="img"></td>
-				</tr>
-				<tr>
-					<td>CAPTCHA:</td>
-					<td><input type="text" name="captcha"></td>
-				</tr>				
-				<tr>
 					<td></td>
 					<td><input type="submit" value="Зарегистрироваться"> <input
 						type="button" value="Отменить"
