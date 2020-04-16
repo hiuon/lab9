@@ -28,7 +28,7 @@
 <div style="text-decoration: italic; font-size: 10px">
 Автор: <c:out value="${ad.author.name}" />,
 последняя дата редактирования:
-<fmt:formatDate pattern="hh:mm:ss dd-MM-yyyy"
+<fmt:formatDate pattern="HH:mm:ss dd-MM-yyyy"
 value="${ad.lastModifiedDate}" />
 </div>
 <%-- Отобразить текст объявления в отдельной рамке --%>

@@ -11,7 +11,9 @@
 </head>
 <body>
 	<jsp:include page="/static/header.jsp"></jsp:include>
-	<h1>Главная страница</h1>
+	<h1>
+		Главная страница
+	</h1>
 	<my:layout2Columns leftColumnWidth="68%" rightColumnWidth="28%">
 		<jsp:attribute name="leftColumnBody">
 <ad:getAds range="all" var="adListing" sort="${sessionScope.sort}"
@@ -19,7 +21,7 @@
 <my:adListing adListing="${adListing}" editMode="false" />
 </jsp:attribute>
 		<jsp:attribute name="rightColumnBody">
-<my:errorMessage />
+<my:errorMessage/>
 <my:loginForm>
 <jsp:attribute name="processor">
 <c:url value="/doLogin.jsp" />

@@ -10,7 +10,7 @@
 <c:if
 	test="${sessionScope.authUser!=null && ad!=null &&ad.authorId==sessionScope.authUser.id}">
 	<div
-		style="float: left; margin: 20px 10px 10px;padding: 5px 0px; border: 1px solid black; background-color: #ccc; width: 150px; text-align: center">
+		style="float: right; margin: 0px 0px 0px;padding: 0px 0px; border: 1px solid black; background-color: #ffdd0f; width: 150px; text-align: center">
 		<a
 			href="<c:url value="/doDeleteAd.jsp">
 <c:param name="id" value="${ad.id}" />
